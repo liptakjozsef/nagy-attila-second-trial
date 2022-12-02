@@ -1,7 +1,7 @@
 .profile-card {
     width: auto;
     max-width: calc(100vw - 10px);
-    height: auto;
+    height: 600px;
   }
 
   body {
