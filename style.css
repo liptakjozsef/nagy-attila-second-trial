@@ -1,7 +1,8 @@
 .profile-card {
-    width: auto;
+    width: 480px;
     max-width: calc(100vw - 10px);
     height: 600px;
+    text-align: center;
   }
 
   body {
@@ -9,14 +10,14 @@
   display: flex;
   align-items: center;
   justify-content: center;  
-  background: url('assets/Attila.jpg') no-repeat center center fixed;  
+  background: url('assets/Japán.jpg') no-repeat center center fixed;  
   background-size: cover;
 }
  
-  .head, .links {
+  .headline, .links {
     text-align: center;
   }
-  .head, .content {
+  .headline, .content {
     width: 90%;
     margin: 0 auto;
   }
@@ -29,24 +30,18 @@ ul {
 li {
   display: inline;
 }
-h1 {
-  font-size: 40px;
-}
+
 p {
   font-size: 21px;
   line-height: 1.2em;
 }
-p.thicker {
-  font-weight: 900;
-}
+
 .profile-card {
   /* background-color: hsla(0, 0%, 100%, .5);*/
    border-radius: 60px;
    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
  }
- .first-row{
-  border-radius: 20%;
- }
+ 
  img {
   
   border-radius: 80%;
